@@ -1,6 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('https://github.com/olegonev/olegonev.github.io/raw/refs/heads/main/icomoon.woff') format('woff');
+  src:  url('fonts/icomoon.eot?vpapwk');
+  src:  url('fonts/icomoon.eot?vpapwk#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?vpapwk') format('truetype'),
+    url('fonts/icomoon.woff?vpapwk') format('woff'),
+    url('fonts/icomoon.svg?vpapwk#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -15,9 +19,6 @@
   font-variant: normal;
   text-transform: none;
   line-height: 1;
-  position: relative;
-  top: 5px;
-  left: 5px;
 
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
@@ -95,74 +96,4 @@
 }
 .icon-css3:before {
   content: "\eae6";
-}
-body{
-  margin: 0;
-}
-.container_block{
-  min-width: 320px;
-  max-width: 1300px;
-  margin: 50px auto;
-}
-.link_site{
-  width: 24%;
-  min-width: 200px;
-  background-color: orange;
-  position: relative;
-  height: 50px;
-  float: left;
-  margin: 0 5px 15px 0px;
-  border-radius: 6px;
-  border-bottom: 2px solid rgba(0, 0, 0, 0.5)
-  
-}
-.link_site p{
-  position: absolute;
-  bottom: 30px;
-  left: 51px;
-  margin: 0px 0px 0px 9px;
-  color: white;
-  white-space: nowrap;
-  font-size: 89%;
-}
-.link_site p:last-child{
-  position: absolute;
-  left: 50px;
-  top: 30px;
-  margin: 0px 0px 0px 9px;
-}
-.icon{
-  font-size: 35px;
-  color: white;
-  padding: 3px 0 0 3px;
-  width: 50px ;
-  height: 94%;
-  background-color: #444444;
-  border-radius: 5px 0 0 5px;
-  
-}
-a{
-  text-decoration: none;
-}
-@media(max-width:960px) {
-  .link_site{
-    width: 32%;
-  }
-}
-@media(max-width:768px) {
-  .link_site{
-    width: 49%;
-  }
-  .link_site:nth-child(even){
-    margin: 0 0 15px 0;
-  }
-}
-@media(max-width:480px) {
-  .link_site{
-    width: 100%;
-  }
-  .container_block{
-    margin: 10px 0 ;
-
-  }
 }
