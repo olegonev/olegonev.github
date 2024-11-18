@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('../fonts/icomoon.woff?vpapwk') format('woff');
+  src:  url('https://github.com/olegonev/olegonev.github.io/raw/refs/heads/main/icomoon.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: block;
