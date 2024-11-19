@@ -3,7 +3,7 @@
   src:  url('fonts/icomoon.eot?ih7rsp');
   src:  url('fonts/icomoon.eot?ih7rsp#iefix') format('embedded-opentype'),
     url('fonts/icomoon.ttf?ih7rsp') format('truetype'),
-    url('fonts/icomoon.woff?ih7rsp') format('woff'),
+    url('https://github.com/olegonev/olegonev.github.io/blob/main/icomoon/fonts/icomoon.woff') format('woff'),
     url('fonts/icomoon.svg?ih7rsp#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
